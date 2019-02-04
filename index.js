@@ -21,7 +21,7 @@ module.exports={
     getTop100,
     getSeasonal,
     getTopCharacters,
-    searchbyName
+    searchbyName,
 }
 
 

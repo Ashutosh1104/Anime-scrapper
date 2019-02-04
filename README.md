@@ -1,5 +1,5 @@
 
-<h1>Anime-scrapper</h1>
+<h1>ANIME SCRAPPER</h1>
 
 This is one package that provides you with every bit of data you need to know about anime it scrapers anime planet and my anime list together alongside future addtions of fandom and other major anime websites to give you the data you need to build amazing tools and databses around anime.
 It has the following funtions:
@@ -2536,5 +2536,4 @@ output:
     year: 2016,
     tags: [ 'Music' ] } ]
 ```
-
 
