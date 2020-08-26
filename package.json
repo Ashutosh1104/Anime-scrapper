@@ -30,7 +30,9 @@
   "dependencies": {
     "cheerio": "^1.0.0-rc.2",
     "express": "^4.16.4",
-    "request": "^2.88.0"
+    "request": "^2.88.0",
+    "save": "^2.4.0",
+    "xmlhttprequest": "^1.8.0"
   },
   "deprecated": false,
   "description": "A scraper tool to get search and get all  details of any anime containing episodes , time of air, staff, charcaters and much more  also  get top voted characters and top hated haters. ",
@@ -49,7 +51,8 @@
   "main": "index.js",
   "name": "anime-scrapper",
   "scripts": {
+    "start":"nodemon index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "version": "2.0.0"
+  "version": "2.3.0"
 }
