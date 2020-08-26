@@ -5,7 +5,7 @@ var {
         getCharactersfor,
         getStafffor,
         getSimilarfor,
-        getallbyName
+        getallbyName,
     }=require('./lib/anime')
 var {getTop100}=require('./lib/topAnime')
 var {getSeasonal}= require('./lib/seasonal')
@@ -28,3 +28,9 @@ app.listen('8000',function(){
     console.log('server started on 8000');
 })
 
+//working example
+async function m(){
+    let x = await getSimilarfor('fullmetal alchemist');
+    console.log(x);
+}
+m();

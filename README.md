@@ -1,3 +1,4 @@
+Make Sure to pass full anime names to filters where names of anime are required such as cast and anime details functions 
 
 <h1>ANIME SCRAPPER</h1>
 
