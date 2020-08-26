@@ -50,8 +50,8 @@
   "main": "index.js",
   "name": "anime-scrapper",
   "scripts": {
-    "start":"nodemon index.js",
+    "start": "nodemon index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "version": "2.3.0"
+  "version": "2.4.0"
 }
