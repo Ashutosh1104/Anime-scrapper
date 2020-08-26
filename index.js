@@ -1,5 +1,3 @@
-var express= require('express')
-var app = express()
 var {
         getbyName,
         getCharactersfor,
@@ -24,13 +22,8 @@ module.exports={
     searchbyName,
 }
 
-app.listen('8000',function(){
-    console.log('server started on 8000');
-})
-
-//working example
 async function m(){
-    let x = await getSimilarfor('fullmetal alchemist');
+    let x = await getStafffor('naruto');
     console.log(x);
 }
 m();
